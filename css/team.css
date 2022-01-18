@@ -1,0 +1,138 @@
+body{ 
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../images/bg.jpg");
+}
+
+*{
+  	color: #000000;
+}
+
+footer p{
+	color: #FFFFFF;
+}
+
+.card-title{
+  	color: #FFC107;
+}
+
+.title{
+	color:#A12121;
+}
+
+section{
+	margin-top: 0%;
+}
+
+.card-deck{
+	margin-right: -5px;
+	margin-left: -5px;
+}
+
+@media (min-width: 576px){
+.card-deck {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-right: -0.2px !important; 
+    margin-left: -0.2px !important;  
+	}
+}
+.card{
+	background-color: #000000 !important;
+}
+p{
+	color: #FFFFFF;
+}
+
+i{
+	color: #FFFFFF; 
+}
+.col-8{
+	color: #FFFFFF;
+}
+
+footer{
+	bottom: 0%;
+	z-index: 1;
+}
+
+.jumbotron {
+  color: white;
+  background-image: url("../images/bg-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40%;
+}
+
+#top{
+	margin-top: 10%;
+}
+
+@media screen and (max-width: 600px) {
+	#top{
+	margin-top: 45%;
+} 
+  }
+
+ h2{
+ 	color:#FFC107;
+ }
+
+.display-6 {
+  text-align: center;
+  position: static;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, 0%);
+  color: white;
+}
+
+ .breadcrumb {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: .75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+     background-color: transparent !important; 
+    border-radius: .25rem;
+    margin: 0 auto !important;
+}
+
+.breadcrumb-item a{
+	color: #FFC107;
+}
+
+.breadcrumb-item.active {
+    color: #FFFFFF !important;
+    background-color: unset !important;
+} 
+
+footer{
+	margin-top: 2%;
+}
+
+.active{
+	background-color: #A12121 !important;
+}
+
+.mail{
+	color: #FFDEAD;
+	font-weight: bolder;
+}
+
+@media screen and (max-width: 1000px) {
+	.breadcrumb{
+	margin-top: 30%;
+	margin-left:40%; 
+} 
+  }
+
+.fa-twitter:hover,.fa-facebook-square:hover,.fa-pinterest-p:hover,.fa-dribbble:hover,.fa-instagram:hover{
+	color: #FFC107 !important;
+	font-size: 1.5em;
+}  

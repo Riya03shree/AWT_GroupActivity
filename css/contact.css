@@ -1,0 +1,133 @@
+*{
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{ 
+  border: hidden;
+  box-sizing: border-box;
+  background-image: url("../images/bg.jpg");
+}
+
+footer{
+  background-color: #A9A9A9A9;
+  padding: 0% !important;
+}
+
+.jumbotron {
+  color: #FFFFFF;
+  background-image: url("../images/bg-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40%;
+}
+
+.display-6 {
+  text-align: center;
+  position: static;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, 0%);
+  color: #FFFFFF;
+}
+
+ .breadcrumb {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: .75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: transparent !important; 
+    border-radius: .25rem;
+    margin: 0 auto !important;  
+}
+
+.breadcrumb-item a{
+  color: #FFC107;
+}
+
+.breadcrumb-item.active {
+    color: #FFFFFF !important;
+    background-color: unset !important;
+} 
+
+#top{
+  margin-top: 10%; 
+}
+
+@media screen and (max-width: 600px) {
+  #top{
+  margin-top: 45%;
+} 
+  }
+
+@media screen and (max-width: 1000px) {
+  .breadcrumb{
+  margin-top: 30%;
+  margin-left: 40% !important;
+} 
+  }  
+
+.col-sm{
+  margin:1%;
+  text-align:left !important;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 2%;
+  margin: 2%;
+}
+
+.active{
+  background-color: #A12121;
+}
+
+#contact-info{
+  background-color: #00000075;
+}
+
+  input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #CCCCCC;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: #DCDCDC29;
+}
+
+input[type=submit],input[type=Reset] {
+  background-color:transparent;
+  color: #FFFFFF;
+  padding: 3%;
+  margin: 2%;
+  border: 2px solid #FFFFFF;
+  cursor: pointer;
+  border-radius: 10px;
+  transition-property: background-color,border-radius,border;
+  transition-duration:1s; 
+}
+
+@keyframes anim{
+  from {background-color: transparent;border-radius: 10px;border: 2px solid #FFFFFF}
+  to {background-color:#FF9800 ;border-radius: 0px;border:2px solid #FF9800;}
+} 
+
+input[type=submit]:hover, input[type=Reset]:hover {
+  background-color:#FF9800 ;
+  border-radius: 0px;
+  border:2px solid #FF9800;
+}
+
+h2{
+  color:#FFC107;
+ }
+
+.fa-twitter:hover,.fa-facebook-square:hover,.fa-pinterest-p:hover,.fa-dribbble:hover,.fa-instagram:hover{
+  color: #FFC107 !important;
+  font-size: 1.5em;
+}

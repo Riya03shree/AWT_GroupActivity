@@ -1,0 +1,265 @@
+*{
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+	background:  url("../images/bg.jpg");
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #FFC107 !important;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #FFFFFF !important;
+    background-color: #A12121 !important;
+}
+#container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.maindiv {
+    width: 50%;
+    height: 96%;
+    top: 2.5%;
+    left: 0.5%;
+    background-repeat: no-repeat;
+    background-image: url(../images/slider1.jpg);
+    animation: slider 20s infinite linear;
+}
+
+
+div#content{
+	margin-top: 5%;
+}
+#content h3{
+	color: #FFFFFF; 
+}
+
+#content p {
+	float: left; 
+	margin: 10px 700px 30px 20px; 
+	text-align: justify;
+	color: #FFFFFF; 
+}
+	
+#content img.design{
+	float: right;
+	margin: 850px 50px -350px 0;
+}
+
+
+div#carouselExampleIndicators {
+    margin: 8% 1% 1% 1%;
+    width: 50%;
+}
+
+.hero-text {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Rajdhani', sans-serif;
+    letter-spacing: 2px;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+	flex-direction: column;
+    margin: 6% 1% 1% 1%;
+}
+
+img.d-block.w-100 {
+    height: 687px;
+}
+
+.content-box{
+	display: flex;
+	align-items: center;
+	margin: 1% 0;
+}
+
+.content-img img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+}
+.content-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-img {
+    width: 50%;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.content-info p {
+    margin-top: 0;
+    color: #FFFFFF;
+    width: 80%;
+	margin-bottom: 1rem;
+	font-size: 22px;
+}
+
+.content-info h6{
+	margin: 3rem 0;
+	color: #FFFFFF;
+	font-weight: 700;
+	font-size: 36px;
+}
+
+
+footer .container-fluid{
+	background-color: #A9A9A9A9;
+}
+
+.container-fluid .row {
+    align-items: center;
+}
+
+.row .col-8{
+	width: 50%;
+}
+
+.row .col-4{
+	width: 50%;
+}
+
+.row-bottom {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 0 1rem;
+}
+.row-bottom .col1{
+	width: 50%;
+}
+
+.row-bottom .col2{
+	width: 50%;
+}
+
+.col2 i{
+	float: right;
+	padding: 0.5rem;
+}
+@media only screen and ( max-width: 786px){
+	
+	img.d-block.w-100 {
+		height: auto;
+	}
+
+	.content-info p {
+		text-align: justify;
+	}
+
+	.content-box {
+		flex-direction: column;
+	}
+	.content-info{
+		width: 100%;
+	}
+	.content-img{
+		width: 100%;
+	}
+
+	.row img {
+		width: 164px;
+	}
+	.row {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.row.bottom-row {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.box2 .content-img{
+		order: 2;
+	}
+	.box2 .content-info{
+		order: 1;
+	}
+
+	.container-fluid .row {
+		flex-direction: row;
+	}
+
+	.container-fluid .row-top {
+		flex-direction: column;
+	}
+}
+
+h2,h6{
+	color: #FFC107 !important;
+}
+
+.display-6 {
+  text-align: center;
+  position: static;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, 0%);
+  color: white;
+}
+
+.jumbotron {
+  color: white;
+  background-image: url("../images/bg-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40%;
+}
+
+ .breadcrumb {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: .75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+     background-color: transparent !important; 
+    border-radius: .25rem;
+    margin: 0 auto !important; 
+}
+
+.breadcrumb-item a{
+	color: #FFC107;
+}
+
+.breadcrumb-item.active {
+    color: #FFFFFF !important;
+    background-color: unset !important;
+} 
+
+@media screen and (max-width: 1000px) {
+	.breadcrumb{
+	margin-top: 30%;
+	margin-left:40%; 
+} 
+  }
+
+  #top{
+	margin-top: 10%;
+}
+
+@media screen and (max-width: 600px) {
+	#top{
+	margin-top: 45%;
+} 
+  }
+
+.fa-twitter:hover,.fa-facebook-square:hover,.fa-pinterest-p:hover,.fa-dribbble:hover,.fa-instagram:hover{
+	color: #FFC107 !important;
+	font-size: 1.5em;
+}

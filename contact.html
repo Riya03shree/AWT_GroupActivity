@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CraftHouse Interiors</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/contact.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>   
+<body>
+    <header>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" style="background-image: url(images/craft.jpg);">
+          <a href="index.html" class="navbar-brand">
+          <img src="images/Craft_house.jpg" alt="Craft_house">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto mr-5">
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="team.html">Team</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="service.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contact.html">Contact Us</a>
+              </li>     
+            </ul>
+          </div>  
+      </nav>
+    </header>
+    <section id="top">
+      <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-6">Contact Us</h1>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+                </ol>
+            </nav>
+            </div>
+        </div>
+  </section>
+  <section id="contact-info">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <h2 style="font-size: xxx-large">Message Us</h2>
+          <form action="http://localhost:8080/contactdb" method="post" target="_blank">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name..." required><br>
+            <label for="eid">Email:</label>
+            <input type="text" id="eid" name="eid" placeholder="Your email id..." required><br>
+            <label for="pnnum"> PhoneNumber: </label>
+        		<input type="text"id="pnnum" name="pnnum" placeholder="your mobile num ..." required><br>
+            <label for="subj"> Subject: </label>
+            <input type="text" id="subj" name="subj" placeholder="Subject..." required><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Write something.." style="height:170px" required></textarea><br><br><br>
+            <input type="submit" value="Submit">
+		        <input type="Reset" value="Reset">
+          </form>
+        </div>
+      <div class="col-sm">
+        <h2 style="font-size: xxx-large">Contact Info</h2><br>
+          <p style="font-size: x-large"><i class="fa fa-map-marker" style="font-size: x-large;color: #A12121"></i>&nbsp;&nbsp;India</p>
+          <p style="font-size: x-large" style="font-size: xx-large"><i class="fa fa-phone" style="font-size: xx-large;color: #A12121"></i>&nbsp;&nbsp;0123456789</p>
+          <p style="font-size: x-large"><i class="fa fa-fax" style="font-size: x-large;color: #A12121"></i>&nbsp;&nbsp;0123456789</p>
+          <p style="font-size: x-large"><i class="fa fa-envelope" style="font-size: x-large;color: #A12121"></i>&nbsp;&nbsp;mail@mail.com</p>
+          <p style="font-size: x-large"><i class="fa fa-clock-o" style="font-size: x-large;color: #A12121"></i>&nbsp;&nbsp; Monday - Saturday, 09:00 - 17:00</p>
+      </div>
+    </div>
+  </div>
+</section>
+  <footer>
+    <div class="container-fluid">
+  <div class="row">
+    <div class="col">
+      <img src="images/Craft_house.jpg" alt="Craft_house" style="display: inline;">
+          <h2 style="display: inline;">CraftHouse Interiors</h2><hr> 
+          <p>We Offer Tailor made Interior Designs to transform your space into the home of your dreams. Personalized Interior Design Solutions to Match Your Lifestyle.</p>
+    </div>
+    <div class="col"><br>
+      <h2>Contact Us</h2><hr><br>
+          <p><i class="fa fa-map-marker"></i>&nbsp;&nbsp;India</p>
+          <p><i class="fa fa-phone"></i>&nbsp;&nbsp;0123456780</p>
+          <p><i class="fa fa-envelope"></i>&nbsp;&nbsp;mail@mail.com</p>
+    </div>
+  </div>
+    <div class="row" style="background-color: #000000; color: #FFFFFF">
+      <div class="col-8">
+        <br>
+        <i class="fa fa-copyright"></i>&nbsp;Copyright-CraftHouse Interiors
+        <br><p></p>
+      </div>
+      <div class="col-4">
+        <br>
+        <i class="fa fa-twitter"></i>&nbsp;&nbsp;<i class="fa fa-facebook-square"></i>&nbsp;&nbsp;<i class="fa fa-instagram"></i>&nbsp;&nbsp;<i class="fa fa-pinterest-p"></i>&nbsp;&nbsp;<i class="fa fa-dribbble"></i>
+    </div>
+  </footer>           
+
+</body>
+</html>

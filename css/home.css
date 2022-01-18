@@ -1,0 +1,166 @@
+body{ 
+  border: hidden;
+  margin: 1%;
+  padding: 1%;
+  box-sizing: border-box;
+  background-image: url("../images/bg.jpg");
+}
+
+* {
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cols{
+  padding: 2% 5% 2% 5%;
+  column-count:2;
+  /*column-rule: 5px solid #FFFFFF*/;
+  column-gap: 10%;
+  background-color: #A9A9A9A9;
+}
+
+.ftr{
+  background-color: #000000;
+}
+
+#wt{
+  transform: translateY(15vh);
+  /*background-color: #FFDEAD;*/
+  padding: 4%;
+  margin: 5%;
+  box-sizing: border-box;
+  border: 10px solid #A12121;
+}
+
+h2{
+  text-align: center;
+  color: #FFC107;
+}
+
+h3{
+  text-align: center;
+  color: #FFFFFF;
+}
+
+table{
+  width: 100%;
+}
+
+tr{
+  text-align: center;
+  padding: 4%;
+  margin: 4%;
+  width: 30%;
+  /*background-color: #FFDEAD;*/
+}
+
+td{
+  /*border:2px solid #A12121;*/
+  padding: 2%;
+  margin: 2%;
+  width: 30%;
+}
+
+th{
+  font-size: 22px;
+}
+
+.det{ 
+  display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+.cust-img{
+  border-radius: 50%;
+  width: 100px;
+  height: auto;
+  vertical-align: middle
+}
+
+.whead{
+  text-align: center;
+  color: #A12121;
+}
+
+.cust-cont {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: auto;
+    overflow: auto;
+}
+
+.cust-cont > div {
+  border: 10px solid #A12121;
+  background-color: #292929C4;
+  display: inline-block;
+  width: 45%;
+  margin: 2%;
+  padding: 2%;
+  text-align: justify;
+  overflow: auto;
+}
+
+p{
+  color: #FFFFFF;
+  font-family: 'Rajdhani'!important, sans-serif;
+}
+#caption{
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  color: #FFFFFF;
+  text-align: center;
+  caption-side: unset; 
+}
+
+.active , .dot:hover {
+  background-color: #A12121 !important;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.row{
+  background-color: #A9A9A9A9;
+}
+
+footer{
+  transform: translateY(15vh);
+  margin: 0% -1% -1% -2%;
+}
+
+.col-sm-4{
+  /*height: 60vh;*/
+  background-color: #000000CF; 
+}
+
+h3{
+  color: #A12121;
+}
+
+.workt{
+  color: #FFFFFF;
+}
+.heading,.ul{
+  color: #FFDEAD;
+  text-align: center;
+}
+
+u{
+  color: #FFC107;
+  text-align: center;
+}
+
+.fa-twitter:hover,.fa-facebook-square:hover,.fa-pinterest-p:hover,.fa-dribbble:hover,.fa-instagram:hover{
+  color: #FFC107 !important;
+  font-size: 1.5em;
+}
